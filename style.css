@@ -1,0 +1,376 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Clash Display;
+}
+
+@font-face {
+    font-family: Clash Display;
+    src: url('./ClashDisplay_Complete/Fonts/TTF/ClashDisplay-Variable.ttf');
+  }
+.navbar{
+width: 100%;
+height: 60px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: white;
+z-index: 2;
+}
+.navbar h3{
+    font-weight: 400;
+}
+.hr{
+    width: 98%;
+    margin: auto;
+    position: fixed;
+}
+.link-group{
+    display: flex;
+    padding: 20px 0px;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    margin-top: 60px;
+    position: fixed;
+    z-index: 2;
+}
+.link{
+    color: rgba(112, 112, 112, 0.847);
+    text-decoration: none;
+}
+.link:hover{
+    color: rgba(100, 4, 111, 0.847);
+}
+.page1{
+    width: 90%;
+    height: 80vh;
+    margin: auto;
+padding:20vh 0px;
+display: flex;
+}
+
+.side1{
+    background-color: #292449;
+    color: white;
+    width: 65%;
+    height: 75vh;
+    padding: 50px 0px 50px 80px;
+}
+.side1 h1{
+    font-weight: 300;
+    width: 80%;
+}
+.side1 button{
+    border: none;
+    color: aliceblue;
+    background-color: #494465;
+    margin-top: 50px;
+}
+.side1 p{
+    width: 80%;
+    font-size: 19px;
+    margin-top: 120px;
+}
+.side2{
+    width: 35%;
+    height: 75vh;
+}
+.side2 img{
+    width: 100%;
+    height: 100%;
+}
+.page2{
+    margin-top: 150px;
+}
+.page2 h4{
+    font-weight: normal;
+}
+.page3{
+    margin-top: 100px;
+    padding: 0px 90px;
+}
+.page3 h1{
+    font-weight: normal;
+}
+.page3 button{
+    border: none;
+margin-left: 41% ;
+margin-top: 20px;
+    background-color: #F9F9F9;
+}
+.page3 button:hover{
+    transition: .3s;
+    background-color: #a9a6a648;
+}
+.page4{
+    margin-top: 100px;
+    padding: 0px 90px;
+}
+.page4 button{
+    border: none;
+margin-left: 41% ;
+margin-top: 20px;
+    background-color: #F9F9F9;
+}
+.page4 button:hover{
+    transition: .3s;
+    background-color: #a9a6a646;
+}
+.page5{
+    margin-top: 50px;
+    width: 100%;
+    height: 70vh;
+    background-color: #F9F9F9;
+    padding-top: 50px;
+}
+.page5 .box{
+    width: 80%;
+    height: 90%;
+    margin: auto;
+    background-color: white;
+}
+.input{
+    width: 80%;
+    margin: auto;
+    background-color: rgba(128, 128, 128, 0.61);
+    border: none;
+    border-radius: 0%;
+}
+.inputButton{
+    border: none;
+border-radius: 0%;
+height: 100%;
+background-color: #282347;
+color: white;
+}
+.inputButton:hover{
+    transition: .3s;
+    background-color: #494465;
+}
+.input-group{
+    padding-top: 100px;
+}
+.page6{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    margin-top: 100px;
+    padding: 0px 90px;
+}
+.page6 rihgt{
+    width: 50%;
+    height: 100%;
+}
+.page6 .left{
+    width: 50%;
+    height: 100%;
+}
+.page6 button{
+    border: none;
+margin-top: 160px;
+    background-color: #F9F9F9;
+}
+.page6 button:hover{
+    transition: .3s;
+    background-color: #a9a6a646;
+}
+.page7{
+    width: 100%;
+    background-color:#2A254B;
+
+}
+.footer{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    background-color:#2A254B;
+    color: white;
+    padding: 100px 50px;
+}
+.col1{
+    width: 20%;
+}
+.col2{
+    width: 20%;
+}.col3{
+    width: 20%;
+}.col4{
+    width: 40%;
+}
+.inputButton2{
+    border: none;
+border-radius: 0%;
+height: 100%;
+background-color: white;
+}
+.inputButton2:hover{
+    transition: .3s;
+    background-color: #494465;
+}
+.navbar2{
+    display: none;
+}
+
+
+@media screen and (max-width: 900px) {
+.navbar{
+    display: none;
+    z-index: -1;
+}
+.navbar2{
+    display: block;
+    z-index: 4;
+    background-color: white;
+    width: 100%;
+    height: 7vh;
+}
+.link-group{
+    display: none;
+}
+
+.page1 .side1{
+    width: 100%;
+    height: 80vh;
+    padding: 50px 10px 0px 10px;
+    margin: auto;
+}
+.page1 .side1 h1{
+    width: 100%;
+}
+.page1 .side1 p{
+    width: 100%;
+    padding: 5px;
+    margin-top: -350px;
+}
+.page1 button{
+    width: 99%;
+    margin: auto;
+    margin-top:300px ;
+}
+.page1 .side2{
+    display: none;
+}
+.page2{
+    margin-top: 200px;
+    flex-direction: column;
+}
+.cards2{
+    flex-direction: column;
+}
+.cards2 .col-3{
+    width: 100%;
+}
+.page3{
+    width: 100%;
+    margin-left:-50px;
+}
+.page3 button{
+    width: auto;
+    margin-left: 70px;
+}
+.page3 .cards1{
+    width: 100%;
+flex-wrap: wrap;
+}
+.page4{
+    width: 100%;
+    margin-left: -90px;
+}
+.page4 h1{
+    width: 100%;
+    margin-left: 70px;
+    text-align: center;
+}
+.page4 .card1 img{
+    width: 350px;
+    margin-left: 16px; 
+}
+.page4 .card2 img{
+    width: 350px;
+    margin-left: 15px; 
+}.page4 .card3 img{
+    width: 350px;
+    margin-left: 15px; 
+}.page4 .card4 img{
+    width: 350px;
+    margin-left: 15px; 
+}
+.page4 h4{
+    width: 100%;
+    margin-left: 20px;
+}
+.page4 p{
+    width: 100%;
+    margin-left: 20px;
+}
+.page4 button{
+    margin-left: 100px;
+}
+
+.page5{
+    background-color: white;
+    width: 100%;
+}
+.page5 h1{
+    width: 400px;
+    margin-left: -50px;
+}
+.page5 p{
+margin-left: -60px;
+}
+.input-group input{
+    display: none;
+}
+.input-group button{
+
+    padding: 20px 40px;
+}
+.page6{
+    flex-direction: column;
+}
+.page6 .right{
+    width: 100%;
+    height: 100vh;
+}
+.page6 .right h2{
+    width: 300px;
+    margin-left: -50px;
+}
+.page6 .right p{
+    width: 300px;
+    margin-left: -50px;
+
+}
+.page6 .left img{
+    width: 380%;
+    margin-left: -90px;
+    margin-top: 50px;
+}
+.page6 button{
+    margin-top: 10px;
+}
+.page7{
+    width: 100%;
+    margin-top: 200px;
+}
+.footer{
+    width: 100%;
+}
+.col1{
+    width: 100%;
+}
+.col2{
+    width: 100%;
+    margin-left: 50px;
+}
+.col3{
+display: none;}
+.col4{
+    display: none;
+}
+}
